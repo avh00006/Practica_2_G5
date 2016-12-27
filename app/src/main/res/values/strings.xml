@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Practica1</string>
+    <string name="main_title">Practica1</string>
+    <string name="main_description">Práctica realizada para la asignatura <i>Servicios Móviles</i> del Grado de Ingeniería Telemática de la Universidad de Jaén\nGrupo 6: Angel Venteo Heras y Francisco Jose Aguado Martin</string>
+    <string name="user">Nombre</string>
+    <string name="user2"></string>
+    <string name="user3">Apellidos</string>
+    <string name="user4"></string>
+    <string name="NIF1">DNI</string>
+    <string name="NIF2"></string>
+    <string name="email1">Email</string>
+    <string name="email2">Introduzca su correo electrónico</string>
+    <string name="login">Entrar</string>
+    <string name="EDAD1">Edad</string>
+    <string name="EDAD2"></string>
+    <string name="Peso1">Peso</string>
+    <string name="Peso2">Introduzca su peso en Kg</string>
+    <string name="Altura1">Altura</string>
+    <string name="Altura2">Introduzca su estatura en cm</string>
+    <string name="Dias1">Días entreno</string>
+    <string name="Dias2">Días de la semana que puede entrenar</string>
+    <string name="Lesiones1">Lesiones</string>
+    <string name="Lesiones2">Indique si sufre algún tipo de lesión</string>
+    <string name="Intol1">Intolerancias</string>
+    <string name="Intol2">Indique si tiene algún tipo de intolerancia</string>
+    <string name="pass">Su clave de acceso</string>
+    <string name="pass2">Contraseña</string>
+    <string name="dominio">Dominio</string>
+    <string name="puerto">Puerto</string>
+    <string name="loginbtn">Registrar</string>
+    <string name="reg">Registrate</string>
+    <string name="info">Información</string>
+    <string name="title_activity_activity_login">Activity_login</string>
+    <string name="title_activity_activity_register">Activity_register</string>
+    <string name="edit_puerto">Introduzca el puerto:</string>
+    <string name="btnxlog">¿Ya estás registrado?Autenticate!!</string>
+    <string name="actfin">Actividad que contendrá el servicio de la aplicación</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nick">Nick</string>
+    <string name="title_activity_shared_prefs">SharedPrefsActivity</string>
+</resources>

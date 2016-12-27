@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/fondo2">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/user"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint="@string/user2"
+                android:layout_height="wrap_content"
+                android:id="@+id/user2"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorHighlight="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/user3"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint="@string/user4"
+                android:layout_height="wrap_content"
+                android:id="@+id/user4"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorHighlight="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/NIF1"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint="@string/NIF2"
+                android:layout_height="wrap_content"
+                android:id="@+id/NIF2"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorHighlight="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/email1"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:hint="@string/email2"
+                android:layout_height="wrap_content"
+                android:id="@+id/email2"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorHighlight="#FFFFFF" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/pass2"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:hint="@string/pass"
+                android:inputType="textPassword"
+
+                android:id="@+id/pass"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorLink="@color/abc_primary_text_disable_only_material_dark" />
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/loginbtn"
+        android:id="@+id/loginbtn"
+        android:onClick="Autenticacion" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnxlog"
+        android:id="@+id/btnxlog"
+        android:layout_gravity="center_horizontal"
+        style="@style/Platform.V14.AppCompat.Light"
+        android:layout_marginTop="20dp"
+        android:onClick="Plogeo" />
+
+    <Button
+        style="@style/Base.V12.Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:id="@+id/info"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/background_dark"
+        android:onClick="ejecutar_info"
+        android:layout_marginTop="50dp" />
+</LinearLayout>

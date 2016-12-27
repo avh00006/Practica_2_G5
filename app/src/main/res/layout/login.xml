@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"  android:padding="20dip"
+    android:background="@drawable/fondo2">
+
+    <EditText android:id="@+id/txtNick"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/email1"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <EditText android:id="@+id/txtPass"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="@string/pass2"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="30dip"
+        android:textColorHint="#FFFFFF" />
+
+
+    <Button android:id="@+id/btnLogin"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dip" android:paddingRight="15dip"
+        android:layout_marginLeft="100dp"
+        android:onClick="onClick" />
+
+    <Button
+        style="@style/Base.V12.Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reg"
+        android:id="@+id/reg"
+        android:layout_gravity="center_horizontal"
+        android:clickable="false"
+        android:onClick="Pini"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+</LinearLayout>
